@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Appointment</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Appointment</h1>
+    <form id="mygo">
+
+      <label for="Name">1st Name:</label>
+      <input id="Name" class="form-control" type="text">
+
+      <label for="last">last Name:</label>
+      <input id="last" class="form-control" type="text">
+
+      <label for=" number">phone number:</label>
+      <input id="number" class="form-control" type="number"><br>
+
+      <div>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender-choice" value="male">
+
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender-choice" value="female">
+
+        <label for="Other">Other</label>
+        <input id="other" type="radio" name="gender-choice" value="other">
+      </div><br>
+
+      <div>
+        <label for="booking">Booking Section for Gym </label>
+        <select name="gyminastic" id="booking">
+          <option value="adult">Adult</option>
+          <option value="teenager">Teenager</option>
+          <option value="children">Children</option>
+          <option value="grandma">Grandma</option>
+          <option value="grandpa">Grandpa</option>
+          <option value="Family">Family</option>
+          <option value="Ftriends">Friends</option>
+
+        </select><br><br>
+      </div>
+      <label for="time">Available time (start Time)</label>
+      <input id="time" class="love" type="time">
+
+      <label for="date">Closing Time</label>
+      <input id="date" class="good" type="time"><br>
+
+      <button type="submit" class="btn btn-success"> submit information</button>
+    </form>
+
+  </div>
+</body>
+
+
+</html>
